@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_dark"
+    tools:context=".Activitys.Log_Activity">
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="Inserta usuario"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:maxLength="9"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:id="@+id/nombre_usuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="Inserta contrasñea"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:maxLength="9"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:id="@+id/pass"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:text="He olvidado mi contraseña"
+                android:textSize="20dp" android:id="@+id/forget"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:text="Registrarme"
+                android:textSize="20dp" android:id="@+id/registro"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Iniciar Sesion"
+            android:textColor="#FFFF"
+            android:background="#95B9CA"
+            android:id="@+id/iniciar"/>
+    </LinearLayout>
+</LinearLayout>

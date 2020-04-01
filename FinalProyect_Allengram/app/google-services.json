@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "500328087466",
+    "firebase_url": "https://first-30bb5.firebaseio.com",
+    "project_id": "first-30bb5",
+    "storage_bucket": "first-30bb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500328087466:android:55a67ee2609e5063f775d3",
+        "android_client_info": {
+          "package_name": "com.example.finalproyect_allengram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500328087466-5mp126dog5r4rhlpi4shob8fecsb1gkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalproyect_allengram",
+            "certificate_hash": "06357f135d618fe134ce2b510f8c6022d649ee74"
+          }
+        },
+        {
+          "client_id": "500328087466-0p6o3utol3qndrcag2n4p2gkhqfihds9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqycdJMlzVrac9PTrZ7iQpCMHPYGeGiDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500328087466-0p6o3utol3qndrcag2n4p2gkhqfihds9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
